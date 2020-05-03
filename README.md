@@ -15,9 +15,10 @@ currently contains the following modules:
     - Datasheet is at <http://wiki.ai-thinker.com/_media/esp8266/a014ps01.pdf>
 
 Future devices might include:
-- Wemos D1 Mini - based on the ESP8266-12, but with pin headers on 0.1" spacing.
-- ESP-12 adapter plate - a simple PCB that adapts the 2.0mm pad spacing to an 0.1" pin
-  header for breadboard work.
+- Wemos D1 Mini - based on the ESP-12, but with pin headers on 0.1" spacing, as well as a
+  USB serial interface and power regulator.
+- ESP-12 adapter plate - a simple PCB that adapts the 2.0mm pad spacing to 0.1" pin
+  headers for breadboard work.
 
 ## For questions or defects
 
