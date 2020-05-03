@@ -57,8 +57,8 @@
 </layers>
 <library>
 <packages>
-<package name="ESP8266-12F">
-<description>&lt;b&gt;ESP8266-12F module (package) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
+<package name="ESP-12F">
+<description>&lt;b&gt;ESP-12F module (package) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
 &lt;br&gt;
 This package defines pads for all of the module's pins:&lt;p&gt;
 &lt;ul&gt;
@@ -132,8 +132,8 @@ Please submit edits via the Github repo: &lt;a href="https://github.com/RichardF
 <wire x1="7" y1="10.5" x2="7" y2="7" width="0.6096" layer="51"/>
 <wire x1="-5" y1="10.5" x2="-5" y2="7" width="0.6096" layer="51"/>
 </package>
-<package name="ESP8266-12F_16">
-<description>&lt;b&gt;ESP8266-12F module (package) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
+<package name="ESP-12F_16">
+<description>&lt;b&gt;ESP-12F module (package) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
 &lt;br&gt;
 This package variant omits pads for pins 17-22 to allow for improved ground plane flooding:&lt;p&gt;
 &lt;ul&gt;
@@ -203,8 +203,8 @@ Please submit edits via the Github repo: &lt;a href="https://github.com/RichardF
 </package>
 </packages>
 <symbols>
-<symbol name="ESP8266-12F">
-<description>&lt;b&gt;ESP8266 schematic symbol for EAGLE PCB&lt;/b&gt;&lt;p&gt;
+<symbol name="ESP-12F">
+<description>&lt;b&gt;ESP-12F schematic symbol for EAGLE PCB&lt;/b&gt;&lt;p&gt;
 &lt;br&gt;
 This symbol defines pins for all of the possible pins.  Not all pins will be available in all package variants:&lt;p&gt;
 &lt;ul&gt;
@@ -254,7 +254,7 @@ Please submit edits via the Github repo: &lt;a href="https://github.com/RichardF
 <wire x1="5.08" y1="-20.32" x2="5.08" y2="15.24" width="0.254" layer="94"/>
 <wire x1="5.08" y1="15.24" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="15.24" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
-<text x="-15.24" y="10.16" size="1.27" layer="94">_ESP8266</text>
+<text x="-15.24" y="10.16" size="1.27" layer="94">_ESP-12F</text>
 <text x="-10.16" y="12.7" size="1.27" layer="94">&gt;NAME</text>
 <pin name="CS0" x="-12.7" y="-25.4" length="middle" rot="R90"/>
 <pin name="MISO" x="-10.16" y="-25.4" length="middle" rot="R90"/>
@@ -263,8 +263,8 @@ Please submit edits via the Github repo: &lt;a href="https://github.com/RichardF
 <pin name="MOSI" x="-2.54" y="-25.4" length="middle" rot="R90"/>
 <pin name="SCLK" x="0" y="-25.4" length="middle" rot="R90"/>
 </symbol>
-<symbol name="ESP8266-12F_16">
-<description>&lt;b&gt;ESP8266 schematic symbol for EAGLE PCB&lt;/b&gt;&lt;p&gt;
+<symbol name="ESP-12F_16">
+<description>&lt;b&gt;ESP-12F schematic symbol for EAGLE PCB&lt;/b&gt;&lt;p&gt;
 &lt;br&gt;
 This symbol variant omits pads for pins 17-22 to allow for improved ground plane flooding:&lt;p&gt;
 &lt;ul&gt;
@@ -308,13 +308,13 @@ Please submit edits via the Github repo: &lt;a href="https://github.com/RichardF
 <wire x1="5.08" y1="-20.32" x2="5.08" y2="15.24" width="0.254" layer="94"/>
 <wire x1="5.08" y1="15.24" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="15.24" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
-<text x="-15.24" y="10.16" size="1.27" layer="94">_ESP8266</text>
+<text x="-15.24" y="10.16" size="1.27" layer="94">_ESP-12F</text>
 <text x="-10.16" y="12.7" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP8266-12F" prefix="ESP" uservalue="yes">
-<description>&lt;b&gt;ESP8266-12F module (device) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
+<deviceset name="ESP-12F" prefix="ESP" uservalue="yes">
+<description>&lt;b&gt;ESP-12F module (device) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
 &lt;br&gt;
 This package defines pads for all of the module's pins:&lt;p&gt;
 &lt;ul&gt;
@@ -345,10 +345,10 @@ Use at your own risk.&lt;p&gt;
 Author: &lt;author&gt;Richard Hornbaker&lt;/author&gt;&lt;p&gt;
 Please submit edits via the Github repo: &lt;a href="https://github.com/RichardFoo/ESP8266-Eagle"&gt;https://github.com/RichardFoo/ESP8266-Eagle&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ESP8266-12F" x="5.08" y="0"/>
+<gate name="G$1" symbol="ESP-12F" x="5.08" y="0"/>
 </gates>
 <devices>
-<device name="ESP8266-12F" package="ESP8266-12F">
+<device name="ESP-12F" package="ESP-12F">
 <connects>
 <connect gate="G$1" pin="ADC" pad="2"/>
 <connect gate="G$1" pin="CS0" pad="17"/>
@@ -379,8 +379,8 @@ Please submit edits via the Github repo: &lt;a href="https://github.com/RichardF
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP8266-12F_16" prefix="ESP" uservalue="yes">
-<description>&lt;b&gt;ESP8266-12F module (package) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
+<deviceset name="ESP-12F_16" prefix="ESP" uservalue="yes">
+<description>&lt;b&gt;ESP-12F module (package) for EAGLE PCB&lt;/b&gt;&lt;p&gt;
 &lt;br&gt;
 This package variant omits pads for pins 17-22 to allow for improved ground plane flooding:&lt;p&gt;
 &lt;ul&gt;
@@ -411,10 +411,10 @@ Use at your own risk.&lt;p&gt;
 Author: &lt;author&gt;Richard Hornbaker&lt;/author&gt;&lt;p&gt;
 Please submit edits via the Github repo: &lt;a href="https://github.com/RichardFoo/ESP8266-Eagle"&gt;https://github.com/RichardFoo/ESP8266-Eagle&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ESP8266-12F_16" x="5.08" y="0"/>
+<gate name="G$1" symbol="ESP-12F_16" x="5.08" y="0"/>
 </gates>
 <devices>
-<device name="ESP8266-12F_16" package="ESP8266-12F_16">
+<device name="ESP-12F_16" package="ESP-12F_16">
 <connects>
 <connect gate="G$1" pin="ADC" pad="2"/>
 <connect gate="G$1" pin="EN" pad="3"/>
