@@ -12,6 +12,10 @@ currently contains the following modules:
     - An alternate symbol / package / device that includes only the main 16 pins.  This is
       likely more compatible with earlier versions of ESP8266-12 which don't have pads
       along the bottom edge.
+    - Important detail: This package defines the pad numbers with the bottom edge being
+      17-22, as shown in the datasheet.  Many other references number them as 9-14,
+      which is how they were numbered for earlier versions.  This shouldn't matter when
+      using Eagle, as the signal names are mapped properly from the schematic symbol.
     - Datasheet is at <http://wiki.ai-thinker.com/_media/esp8266/a014ps01.pdf>
 
 Future devices might include:
